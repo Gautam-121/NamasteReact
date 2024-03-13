@@ -1,18 +1,5 @@
-/*
-<div id="parent">
-    <div id="child">
-        <h1></h1>
-        <h2></h2>
-    </div>
-    <div id="child2">
-        <h1></h1>
-        <h2></h2>
-    </div>
-</div>
- */
-
-// ReactElement(Object) => when render it convert it HTML(browser Understand)
-
+import React from "react";
+import ReactDOM from "react-dom/client"
 
 const heading = React.createElement(
     "h1", 
@@ -49,5 +36,5 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 const head = ReactDOM.createRoot(document.getElementById("head"))
 
 root.render(parent);
-head.render(parent)
+head.render(parent) // Convert React.createElement(object) --> HTML element 
 

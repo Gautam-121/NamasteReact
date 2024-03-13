@@ -47,7 +47,6 @@ React: This is the core React library that provides the foundation for building 
 ReactDOM: This is a separate package that provides the APIs for rendering React components to the DOM (Document Object Model) in a web browser environment.ReactDOM its Like a bridge between react and browser Dom , all manipulation of virtualDom , Normal Dom it handle by ReactDOM
 
 
-
 # What is difference between react.developement.js and react.production.js from cdn links
 react.developement.js is use at the development phase , it give warning and dubbging at the testing time of react application but we use react.production.js use at time deplying our app , so it reduce size of or app , it bundled the app , it remove all warning and dubbging
 

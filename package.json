@@ -1,0 +1,28 @@
+{
+  "name": "reactbysaini",
+  "version": "1.0.0",
+  "description": "This is a Namaste React tutorial By Akshay Saini",
+  "main": "App.js",
+  "scripts": {
+    "test": "Jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gautam-121/NamasteReact.git"
+  },
+  "keywords": [],
+  "author": "Gautam Dhakate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gautam-121/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/Gautam-121/NamasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
